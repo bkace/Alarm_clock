@@ -16,7 +16,7 @@ def alarm(set_timer):
         print("The set date is:{} \n".format(date))
         print("Current time: {}".format(now))
         print("Alarm time: {}".format(set_timer))
-        sound = AudioSegment.from_mp3('/home/bikeshm/Developer/Projects/Alarm_Clock/Alarm-ringtone.mp3')
+        sound = AudioSegment.from_mp3('Alarm-ringtone.mp3')
         if now == set_timer:
             print("Buzzzz !!!")
             play(sound)
@@ -47,7 +47,8 @@ min_Time = Entry(clock, textvariable = minute, bg = "LightCyan2", width = 15).pl
 sec_Time = Entry(clock, textvariable = second, bg = "LightCyan2", width = 15).place(x= 300, y = 30)
 
 #Time input by user
-submit_button = Button(clock, text = "Set Alarm", fg = "red", bg = "light yellow", width = 10, command = actual_time).place(x =270, y = 70)
+submit_button = Button(clock, text = "Set Alarm", fg = "red", bg = "light yellow", width = 10, 
+                        command = actual_time).place(x =270, y = 70)
 close_button = Button(clock, text = "Close", fg = "red", bg = "light yellow", width = 10, 
                         command = clock.destroy).place(x =120, y = 70)
 clock.mainloop()
