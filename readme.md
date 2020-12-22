@@ -14,8 +14,8 @@ any information that we want to provide or get from users.
 the user is operating python and to maintain it too.
 
 Python provides a module called pydub to work with audio files.For playing sound install pydub
-    - `pip3 install pydub`
+    - pip3 install pydub
 
 **pydub** is a Python library to work with only **.wav** files. For opening and saving non-wav files like mp3 - `ffmpeg` or `libav` is needed.
 In Linux:
-    - `sudo apt-get install ffmpeg libavcodec-extra`
+    - sudo apt-get install ffmpeg libavcodec-extra
