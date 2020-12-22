@@ -6,9 +6,7 @@ A simple alarm clock using the below libraries:
 2. datetime
 3. time
 4. pydub
-
 ```
-
 [Tkinter](https://docs.python.org/3/library/tkinter.html) module belongs to a standard library of GUI in Python. It helps to create a dialog box with
 any information that we want to provide or get from users.
 
